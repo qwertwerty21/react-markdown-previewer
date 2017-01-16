@@ -1,0 +1,58 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	
+	h2.main-title{
+		flex: 0 1 100%;
+		text-align: center
+		
+	}
+
+	.title-row{
+		display: flex;
+		flex: 0 1 100%;
+		justify-content: center;
+
+		h4{
+			flex: 1 0 50%;
+			text-align: center
+			
+		}
+
+	}
+  .text-area-container{
+		flex: 1 0 50%;
+		justify-content:center;
+		display: flex;
+		box-sizing: border-box;
+		min-height: 200px;
+		max-height: 100vh;
+		overflow-y: scroll;
+
+		.input-text-area{
+			flex: 1;
+			resize: none;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	.markdown-display-container{
+		flex: 1 0 50%;
+		min-height: 200px;
+		max-height: 100vh;
+		overflow-y: scroll;
+		background-color: #ccc;
+		color: #000;
+		p{
+			padding-left: 10px;
+			padding-right: 10px;
+
+		}
+	}
+}
+
+
+
+

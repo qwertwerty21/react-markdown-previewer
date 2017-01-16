@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloForm from './HelloForm';
+import MainContainer from './components/MainContainer';
 
 
-ReactDOM.render(<HelloForm />, document.getElementById('example'));
+ReactDOM.render(<MainContainer />, document.getElementById('render-target'));
